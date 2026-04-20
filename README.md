@@ -14,7 +14,7 @@ This repository contains our project idea submission and the ER/EER and schema d
 * **Schema Diagram (Google Drive):** [Google Drive Link](https://drive.google.com/file/d/1X56BWpKuVyKtjRqP9qBeCdHLJ5jshjy3/view?usp=sharing)
 
 ## ER/EER Diagram
-![ER/EER Diagram](./images/medquiz_ER_diagram.drawio.png)
+![ER/EER Diagram](./images/medquiz_ER_diagram.drawio_updated.png)
 
 ## Schema Diagram
-![Schema Diagram](./images/medquiz_schema_diagram.drawio.png)
+![Schema Diagram](./images/medquiz_schema_diagram.drawio_updated.png)

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram id="ER-EER-MedQuiz" name="ER/EER Diagram">
-    <mxGraphModel dx="1984" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2064" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KuaPQP55UbVJexkwStqr-2" connectable="0" parent="1" style="group;fontFamily=Comic Sans MS;" value="" vertex="1">
-          <mxGeometry height="210" width="380" x="-20" y="110" as="geometry" />
+          <mxGeometry height="210" width="380" x="-190" y="-82.5" as="geometry" />
         </mxCell>
         <mxCell id="legend_box" parent="KuaPQP55UbVJexkwStqr-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;fontFamily=Comic Sans MS;" value="" vertex="1">
           <mxGeometry height="200.45454545454547" width="300" x="10" y="-1.9425000000000001" as="geometry" />
@@ -323,6 +323,72 @@
           <mxGeometry height="35" width="90" x="820" y="740" as="geometry" />
         </mxCell>
         <mxCell id="f_created_line" edge="1" parent="1" source="f_created" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="flashcard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leaderboard_entity" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=light-dark(#9673a6, #ffffff);fontSize=14;fontStyle=1;container=0;fontFamily=Comic Sans MS;" value="&lt;b&gt;Leaderboard&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=5;container=0;fontFamily=Comic Sans MS;" value="&lt;u&gt;leaderboard_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="35" width="100" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_id_line" edge="1" parent="1" source="lb_id" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="leaderboard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_total_score" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="total_score" vertex="1">
+          <mxGeometry height="35" width="90" x="150" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_total_score_line" edge="1" parent="1" source="lb_total_score" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="leaderboard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_accuracy" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="accuracy" vertex="1">
+          <mxGeometry height="35" width="80" x="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_accuracy_line" edge="1" parent="1" source="lb_accuracy" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="leaderboard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_rank" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="rank" vertex="1">
+          <mxGeometry height="35" width="60" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_rank_line" edge="1" parent="1" source="lb_rank" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="leaderboard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_last_updated" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="last_updated" vertex="1">
+          <mxGeometry height="35" width="100" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lb_last_updated_line" edge="1" parent="1" source="lb_last_updated" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="leaderboard_entity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ranked" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;fontFamily=Comic Sans MS;" value="Ranked_In" vertex="1">
+          <mxGeometry height="60" width="100" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ranked_student" edge="1" parent="1" source="student_entity" style="endArrow=none;html=1;strokeWidth=2;fontFamily=Comic Sans MS;" target="rel_ranked">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ranked_lb" edge="1" parent="1" source="leaderboard_entity" style="endArrow=none;html=1;strokeWidth=2;fontFamily=Comic Sans MS;" target="rel_ranked">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card_ranked_student" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontStyle=1;fontFamily=Comic Sans MS;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="card_ranked_lb" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontStyle=1;fontFamily=Comic Sans MS;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=5;container=0;fontFamily=Comic Sans MS;" value="&lt;u&gt;progress_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="35" width="90" x="490" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_id_line" edge="1" parent="1" source="fp_id" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="rel_studies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_known" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="is_known" vertex="1">
+          <mxGeometry height="35" width="80" x="580" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_known_line" edge="1" parent="1" source="fp_known" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="rel_studies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_reviewed" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;container=0;fontFamily=Comic Sans MS;" value="last_reviewed" vertex="1">
+          <mxGeometry height="35" width="100" x="660" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="fp_reviewed_line" edge="1" parent="1" source="fp_reviewed" style="endArrow=none;html=1;fontFamily=Comic Sans MS;" target="rel_studies">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
