@@ -1,0 +1,18 @@
+MedKotha / CSE370 — SQL for instructor review (schema overview)
+================================================================
+
+Requires: Supabase project with Auth enabled (auth.users exists).
+
+01_profiles.sql          — public.profiles + signup trigger + RLS
+02_flashcards.sql        — public.flashcards + RLS
+03_quiz.sql              — public.quiz (QBank) + RLS
+04_user_answers.sql      — public.user_answers + RLS
+05_study_sessions.sql    — public.study_sessions + RLS
+06_user_settings.sql     — public.user_settings + RLS
+07_marked_questions.sql  — public.marked_questions + RLS
+08_question_notes.sql    — public.question_notes + RLS
+09_question_mistake_stats.sql — aggregates + trigger on user_answers
+10_leaderboard.sql       — public.leaderboard + refresh + get_leaderboard RPC
+11_helpers_and_topics.sql    — has_active_subscription(), get_my_role, topic RPCs
+
+

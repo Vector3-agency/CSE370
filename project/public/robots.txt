@@ -1,0 +1,23 @@
+# MedKotha Medical Study Platform
+# Robots.txt file
+
+User-agent: *
+Allow: /
+
+# Allow search engines to crawl important pages
+Allow: /
+Allow: /auth
+Allow: /dashboard
+Allow: /flashcards
+Allow: /qbank
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap location (will be updated when sitemap is created)
+# Sitemap: https://medkotha.com/sitemap.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 1
